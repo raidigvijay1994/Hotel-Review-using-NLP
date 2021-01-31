@@ -27,6 +27,7 @@ pwd
 
 
 # Importing the dataset
+# loaded tsv file using pd.read_csv so added delimiter = '\t'
 dataset = pd.read_csv('Restaurant_Reviews.tsv', delimiter = '\t', quoting = 3)
 
 
